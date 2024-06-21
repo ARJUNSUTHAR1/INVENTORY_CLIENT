@@ -68,11 +68,11 @@ const Auth = () => {
         }
     }
 
-    useEffect(() => {
-        if (localStorage.getItem("token")) {
-            navigate("/")
-        }
-    }, [])
+    // useEffect(() => {
+    //     if (localStorage.getItem("token")) {
+    //         navigate("/")
+    //     }
+    // }, [])
 
     const registerOnFinish = async (values) => {
         try {

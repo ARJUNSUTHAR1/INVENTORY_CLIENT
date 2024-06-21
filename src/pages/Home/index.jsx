@@ -86,7 +86,7 @@ const Home = () => {
           </Tabs>
         </Tabs.TabPane>
         {/* Process Mater */}
-        <Tabs.TabPane tab="Process" key="4">
+        {/* <Tabs.TabPane tab="Process" key="4">
           <Tabs defaultActiveKey="1" className='' >
             <Tabs.TabPane tab="Laying" key="6">
               <Proccess1 />
@@ -122,10 +122,10 @@ const Home = () => {
               <Summary />
             </Tabs.TabPane>
           </Tabs>
-        </Tabs.TabPane>
-        <Tabs.TabPane tab="Report" key="5">
+        </Tabs.TabPane> */}
+        {/* <Tabs.TabPane tab="Report" key="5">
           <Report />
-        </Tabs.TabPane>
+        </Tabs.TabPane> */}
       </Tabs>
     </div>
   )
