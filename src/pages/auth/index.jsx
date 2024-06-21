@@ -56,7 +56,7 @@ const Auth = () => {
             if (response.success) {
                 message.success(response.message)
                 localStorage.setItem("token", response.data);
-                navigate("/")
+                navigate('/')
             } else {
                 throw new Error(response.message);
             }
@@ -72,7 +72,7 @@ const Auth = () => {
     //     if (localStorage.getItem("token")) {
     //         navigate("/")
     //     }
-    // }, [])
+    // }, [token])
 
     const registerOnFinish = async (values) => {
         try {
